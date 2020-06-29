@@ -57,7 +57,7 @@ bot.on("message", function(message) {
             console.log("pong-ed " + message.author.username);
             break;
         case "info":
-            message.channel.send("This bot is made by Destiny#9470 and is used for moderation and message logging. If you have any feature recommendations please feel free to DM me.");
+            message.channel.send("This bot is made by Destiny#9470/Ben and is used for moderation and message logging. If you have any feature recommendations please feel free to DM me.");
             break;
         case "eval":
         var code = message.content.split(" ").slice(1).join(" ");
